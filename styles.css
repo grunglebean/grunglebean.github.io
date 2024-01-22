@@ -2,7 +2,10 @@
   font-family: MyScriptFont;
   src: url(grunglebean.github.io/fonts/Myscriptfont-1Epg.ttf);
 }
-
+@font-face {
+  font-family: DaemonesqueRegular;
+  src: url(grunglebean.github.io/fonts/daemonesque.regular.ttf);
+}
 
 body {
     background-color: black;
@@ -16,7 +19,7 @@ h1 {
 p {
     font-size: 60px;
     color: white;
-    font-family: 'MyScriptFont';
+    font-family: 'DaemonesqueRegular';
     text-align: center;
 }
 .div  {
