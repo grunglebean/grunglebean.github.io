@@ -10,10 +10,11 @@ body {
 h1 {
     color: rebeccapurple;
     font-family: 'MyScriptFont';
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
 }
 p {
+    font-size: 60px;
     color: white;
     font-family: 'MyScriptFont';
     text-align: center;
