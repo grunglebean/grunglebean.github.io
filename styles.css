@@ -14,14 +14,16 @@ p {
   padding: 20px;
   font-size: 30px;
   font-family: 'UnifrakturCook';
-  background-color: black;
+  background: black;
   color: purple;
-  width: 20px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
-.fa-instagram:hover {
-  background-color: purple;
+.fa:hover {
+  background: purple;
+}
+.fa-instagram {
   color: white;
 }
