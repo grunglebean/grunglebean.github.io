@@ -22,6 +22,9 @@ p {
     font-family: 'DaemonesqueRegular';
     text-align: center;
 }
+a {
+  color: rebeccapurple;
+}
 .div  {
   height: 250px;
   background: black;
