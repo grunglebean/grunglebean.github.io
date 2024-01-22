@@ -14,7 +14,7 @@ p {
 }
 .fa {
   padding: 20px 20px;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'UnifrakturCook';
   background: black;
   color: purple;
@@ -23,7 +23,7 @@ p {
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
-  align-items: center;
+  
 }
 .fa:hover {
   color: purple;
