@@ -4,11 +4,13 @@ body {
 h1 {
     color: rebeccapurple;
     font-family: 'UnifrakturCook';
-    font-size: 22px;
+    font-size: 50px;
+    text-align: center;
 }
 p {
     color: white;
     font-family: 'UnifrakturCook';
+    text-align: center;
 }
 .fa {
   padding: 20px 20px;
