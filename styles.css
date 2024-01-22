@@ -1,15 +1,21 @@
+@font-face {
+  font-family: MyScriptFont;
+  src: url(grunglebean.github.io/fonts/Myscriptfont-1Epg.ttf);
+}
+
+
 body {
     background-color: black;
 }
 h1 {
     color: rebeccapurple;
-    font-family: 'UnifrakturCook';
+    font-family: 'MyScriptFont';
     font-size: 50px;
     text-align: center;
 }
 p {
     color: white;
-    font-family: 'UnifrakturCook';
+    font-family: 'MyScriptFont';
     text-align: center;
 }
 .div  {
