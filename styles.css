@@ -3,10 +3,10 @@ body {
 }
 h1 {
     color: rebeccapurple;
-    font-family: 'UnifrakturCook', 'Times New Roman', Times, serif;
+    font-family: 'UnifrakturCook';
     font-size: 22px;
 }
 p {
     color: white;
-    font-family: 'UnifrakturCook', 'Times New Roman', Times, serif;
+    font-family: 'UnifrakturCook';
 }
