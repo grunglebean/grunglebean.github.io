@@ -21,11 +21,7 @@ p {
   text-decoration: none;
   border-radius: 50%;
 }
-.fa:hover {
-  background-color: purple;
-  color: white;
-}
-.fa-instagram {
+.fa-instagram:hover {
   background-color: purple;
   color: white;
 }
