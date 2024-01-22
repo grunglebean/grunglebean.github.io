@@ -2,10 +2,11 @@ body {
     background-color: black;
 }
 h1 {
-    color: green;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+    color: rebeccapurple;
+    font-family: 'UnifrakturCook', 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 p {
-    color: green;
+    color: white;
+    font-family: 'UnifrakturCook', 'Times New Roman', Times, serif;
 }
