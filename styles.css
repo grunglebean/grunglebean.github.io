@@ -12,13 +12,13 @@ body {
 }
 h1 {
     color: rebeccapurple;
-    font-family: 'MyScriptFont';
+    font-family: 'DaemonesqueRegular';
     font-size: 80px;
     text-align: center;
 }
 p {
     font-size: 60px;
-    color: white;
+    color: rebeccapurple;
     font-family: 'DaemonesqueRegular';
     text-align: center;
 }
@@ -34,7 +34,7 @@ p {
   font-size: 50px;
   scale: 2;
   background: black;
-  color: purple;
+  color: rebeccapurple;
   width: 20px;
   text-align: center;
   text-decoration: none;
