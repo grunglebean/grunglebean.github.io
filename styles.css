@@ -11,7 +11,7 @@ p {
     font-family: 'UnifrakturCook';
 }
 .fa {
-  padding: 20px;
+  padding: 20px 20px;
   font-size: 30px;
   font-family: 'UnifrakturCook';
   background: black;
@@ -19,7 +19,10 @@ p {
   width: 30px;
   text-align: center;
   text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
   border-radius: 50%;
+  border: 2px solid purple;
 }
 .fa:hover {
   background: purple;
