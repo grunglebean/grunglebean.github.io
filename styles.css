@@ -9,6 +9,8 @@
 
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     color: rebeccapurple;
@@ -30,7 +32,10 @@ a {
   background: black;
 }
 .header {
-  background-color: grey;
+  background-color: #66339976;
+  padding: 30px;
+  border-style: groove;
+  border-color: rebeccapurple;
 }
 .icons  {
   text-align: center;
@@ -49,8 +54,8 @@ a {
   
 }
 .fa:hover {
-  color: purple;
+  color: #66339976;
 }
 .fa-instagram {
-  color: white;
+  color: rebeccapurple;
 }
