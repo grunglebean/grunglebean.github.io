@@ -28,6 +28,12 @@ a {
   color: rebeccapurple;
   font-size: 60px;
 }
+ml {
+  font-size: 60px;
+  color: rebeccapurple;
+  font-family: 'DaemonesqueRegular';
+  text-align: left;
+}
 .div  {
   height: 250px;
   background: black;
