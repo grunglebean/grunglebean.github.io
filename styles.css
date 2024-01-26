@@ -23,6 +23,7 @@ p {
     color: rebeccapurple;
     font-family: 'DaemonesqueRegular';
     text-align: center;
+    
 }
 a {
   color: rebeccapurple;
@@ -54,7 +55,7 @@ ml {
   background: black;
   color: rebeccapurple;
   width: 20px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
