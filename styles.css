@@ -16,7 +16,7 @@ h1 {
     font-family: 'DaemonesqueRegular';
     font-size: 80px;
     text-align: center;
-    padding: 8%;
+    padding: 0;
     
 }
 p {
@@ -70,4 +70,5 @@ a {
 .border {
   border: 10px double rebeccapurple;
   margin-top: 0;
+  padding: 2%;
 }
