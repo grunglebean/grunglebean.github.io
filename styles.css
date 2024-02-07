@@ -1,16 +1,15 @@
-@font-face {
-  font-family: MyScriptFont;
-  src: url(grunglebean.github.io/fonts/Myscriptfont-1Epg.ttf);
-}
+/* FONTS */
 @font-face {
   font-family: DaemonesqueRegular;
   src: url(grunglebean.github.io/fonts/daemonesque.regular.ttf);
 }
 
+
+/* ELEMENTS */
 body {
     background-color: black;
     margin: 0;
-    padding: 0;
+    padding: auto;
 }
 h1 {
     color: rebeccapurple;
@@ -35,6 +34,10 @@ ml {
   font-family: 'DaemonesqueRegular';
   text-align: left;
 }
+
+
+
+/* CLASSES */
 .div  {
   height: 250px;
   background: black;
@@ -66,4 +69,8 @@ ml {
 }
 .fa-instagram {
   color: rebeccapurple;
+}
+
+.border {
+  border: 10px double rebeccapurple;
 }
