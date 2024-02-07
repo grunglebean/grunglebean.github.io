@@ -9,7 +9,7 @@
 body {
     background-color: black;
     margin: 0;
-    padding: auto;
+    padding: 0;
 }
 h1 {
     color: rebeccapurple;
@@ -17,6 +17,7 @@ h1 {
     font-size: 80px;
     text-align: center;
     padding: 8%;
+    
 }
 p {
     font-size: 60px;
@@ -28,12 +29,6 @@ p {
 a {
   color: rebeccapurple;
   font-size: 60px;
-}
-ml {
-  font-size: 60px;
-  color: rebeccapurple;
-  font-family: 'DaemonesqueRegular';
-  text-align: left;
 }
 
 
@@ -74,4 +69,5 @@ ml {
 
 .border {
   border: 10px double rebeccapurple;
+  margin-top: 0;
 }
