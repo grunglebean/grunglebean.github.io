@@ -5,56 +5,57 @@
 }
 
 
-/* ELEMENTS */
-body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+/* ELEMENTS
+html, body {
+  width:100%;
+  height:100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-    color: rebeccapurple;
-    font-family: 'DaemonesqueRegular';
-    font-size: 80px;
-    text-align: center;
-    padding: 0;
-    
+  color: rebeccapurple;
+  font-family: 'DaemonesqueRegular';
+  font-size: 80px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+h2 {
+  color: rebeccapurple;
+  font-family: 'DaemonesqueRegular';
+  font-size: 60px;
+  text-align: center;
+  padding: 0;
 }
 p {
-    font-size: 60px;
-    color: rebeccapurple;
-    font-family: 'DaemonesqueRegular';
-    text-align: center;
-    
+  font-size: 60px;
+  color: rebeccapurple;
+  font-family: 'DaemonesqueRegular';
+  text-align: center;   
 }
 a {
   color: rebeccapurple;
-  font-size: 60px;
+}
+div{
+  padding: 0;
 }
 
 
 
-/* CLASSES */
-.div  {
-  height: 250px;
-  background: black;
-}
-.header {
-  background-color: #66339976;
-  padding: 20px;
-  border-style: groove;
-  border-color: rebeccapurple;
+/* CLASSES
+.headerleft {
+  text-align: left;
 }
 .icons  {
   text-align: center;
 }
 .fa {
-  padding: 10px;
-  font-size: 50px;
+  padding: 0px;
   scale: 2;
   background: black;
   color: rebeccapurple;
   width: 20px;
-  text-align: left;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -71,4 +72,98 @@ a {
   border: 10px double rebeccapurple;
   margin-top: 0;
   padding: 2%;
+}
+.page, :target ~ .default {
+  display: none;
+}
+
+.default, :target {
+  display: block;
+}
+
+
+*/
+
+html, body {
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  font-size: 16px;
+  font-family: DaemonesqueRegular;
+  color: rebeccapurple
+}
+
+h1 {
+  background-color: black;
+  margin: 0;
+  border-style: double;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+*:active {
+  outline:none;
+}
+
+#content {
+  display:grid;
+  grid-template-columns: 150px auto;
+  height:100%;
+}
+
+#nav {
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  height:100%;
+  background-color:black;
+  border-color: rebeccapurple;
+  border-style: double;
+
+}
+
+#nav a {
+  line-height:50px;
+  text-decoration:none;
+  color: rebeccapurple;
+  font-size: 32px;
+  display: block;
+}
+
+#nav a:hover {
+  background-color: rgba(0,0,0,0.1)
+}
+
+main {
+  display:inline-block;
+  margin:0px;
+  height:100%;
+}
+
+.page {
+  display: none;
+  background-color: black;
+  padding-left:20px;
+  padding-top:20px;
+  margin:0px;
+  height: 100%;
+}
+
+.page h1 {
+  margin:0px;
+}
+
+.default {
+  display:block;
+}
+
+:target {
+  display:block;
+}
+
+:target ~ .default {
+  display:none;
 }
