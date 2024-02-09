@@ -91,7 +91,8 @@ html, body {
   padding:0px;
   font-size: 16px;
   font-family: DaemonesqueRegular;
-  color: rebeccapurple
+  color: rebeccapurple;
+  background-color: black;
 }
 
 h1 {
@@ -166,4 +167,5 @@ main {
 
 :target ~ .default {
   display:none;
+  background-color: black;
 }
