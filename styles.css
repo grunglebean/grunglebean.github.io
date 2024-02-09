@@ -109,6 +109,14 @@ h1 {
   border-style: double;
   padding: 20px;
 }
+
+h2 {
+  background-color: black;
+  margin: 0;
+  padding: 0px;
+  font-size: 50px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -156,6 +164,7 @@ main {
   top: 33px;
   left: 100px;
   bottom: 0px;
+  right: 0px;
   width: 100%;
 }
 
@@ -184,3 +193,4 @@ main {
   display:none;
   background-color: black;
 }
+
